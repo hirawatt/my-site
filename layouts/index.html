@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
-{{ partial "header.html" . }}
+{{ partial "head" . }}
 <body>
-    {{ partial "head.html" . }}
+    {{ partial "header" . }}
     <main>
         <div class="container wrapper">
                 
