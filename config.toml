@@ -11,17 +11,11 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = ""
-disqusShortname = ""
-
 [params]
-	subtitle = "Musings on Building Tech, Finance & Life"
+	subtitle = ""
 
 	# Optional 64x64 avatar image.
 	avatar = ""
-
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
 	
 	featherIconsCDN = true
 
@@ -32,47 +26,42 @@ disqusShortname = ""
 
 # Nav.
 [[menu.main]]
-name = "Home"
+name = "home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "posts"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "now"
+url = "/now"
 weight = 4
 
 [[menu.main]]
-name = "Projects"
+name = "projects"
 url = "/projects"
-weight = 5
+weight = 3
 
 [[params.social]]
-name = "Github"
+name = "github"
 icon = "github"
 url = "https://github.com/hirawatt"
 
 [[params.social]]
-name = "Telegram"
+name = "telegram"
 icon = "send"
 url = "https://t.me/hirawat"
 
 [[params.social]]
-name = "Mail"
+name = "mail"
 icon = "mail"
 url = "mailto:vishalhirawat@proton.me"
 
 [[params.social]]
-name = "Twitter"
+name = "twitter"
 icon = "twitter"
 url = "https://twitter.com/hirawattt"
 
@@ -82,9 +71,9 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"
 
 [sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
+changefreq = 'monthly'
+filename = 'sitemap.xml'
+priority = 0.5
