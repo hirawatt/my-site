@@ -1,4 +1,4 @@
-baseURL = 'https://hirawatt.github.io'
+baseURL = 'https://hirawatt.github.io/'
 languageCode = 'en-us'
 title = 'vishal hirawat'
 theme = "hugo-ink"
