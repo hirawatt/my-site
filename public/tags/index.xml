@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on vishal hirawat</title>
+    <link>http://hirawat.in/tags/</link>
+    <description>Recent content in Tags on vishal hirawat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sat, 02 Jul 2022 12:34:19 +0530</lastBuildDate><atom:link href="http://hirawat.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>demo</title>
+      <link>http://hirawat.in/tags/demo/</link>
+      <pubDate>Sat, 02 Jul 2022 12:34:19 +0530</pubDate>
+      
+      <guid>http://hirawat.in/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>todo</title>
+      <link>http://hirawat.in/tags/todo/</link>
+      <pubDate>Sat, 02 Jul 2022 12:34:19 +0530</pubDate>
+      
+      <guid>http://hirawat.in/tags/todo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

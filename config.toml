@@ -1,0 +1,89 @@
+baseURL = 'https://hirawatt.github.io'
+languageCode = 'en-us'
+title = 'vishal hirawat'
+theme = "hugo-ink"
+paginate = 5
+
+copyright = "© Copyright notice"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+disqusShortname = ""
+
+[params]
+	subtitle = "Musings on Building Tech, Finance & Life"
+
+	# Optional 64x64 avatar image.
+	avatar = ""
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 5
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/hirawatt"
+
+[[params.social]]
+name = "Telegram"
+icon = "send"
+url = "https://t.me/hirawat"
+
+[[params.social]]
+name = "Mail"
+icon = "mail"
+url = "mailto:vishalhirawat@proton.me"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/hirawattt"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
