@@ -4,6 +4,7 @@ title = 'vishal hirawat'
 theme = "hugo-ink"
 paginate = 5
 
+relativeURLs = true
 copyright = "© Copyright notice"
 
 pygmentsstyle = "vs"
