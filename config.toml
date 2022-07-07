@@ -5,7 +5,7 @@ theme = "hugo-ink"
 paginate = 5
 
 relativeURLs = true
-copyright = "© Copyright notice"
+copyright = "© Copyright"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -16,6 +16,9 @@ pygmentscodefencesguesssyntax = true
 
 	# Optional 64x64 avatar image.
 	avatar = ""
+
+	# Google Fonts
+	googleFonts = "Playfair+Display:700"
 	
 	featherIconsCDN = true
 
