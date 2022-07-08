@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
-{{ partial "header.html" . }}
-<body>
-	<div class="container wrapper">
-		{{ partial "head.html" . }}
+{{ define "main"}}
+<main id="main">
+	<div>
+		<h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
 	</div>
-	{{ partial "footer.html" . }}
-</body>
-</html>
+</main>
+{{ end }}

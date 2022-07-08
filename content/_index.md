@@ -1,5 +1,4 @@
 ---
-slogan: "Dev | Trader | Optimist"
 bio_half: "Musings on Building Tech, Finance & Life"
 ---
 

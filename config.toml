@@ -12,10 +12,10 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-	subtitle = ""
+	subtitle = "dev / trader / dreamer"
 
 	# Optional 64x64 avatar image.
-	avatar = ""
+	avatar = "saitama-64x64.png"
 
 	# Google Fonts
 	googleFonts = "Playfair+Display:700"
@@ -29,19 +29,14 @@ pygmentscodefencesguesssyntax = true
 
 # Nav.
 [[menu.main]]
-name = "home"
-url = "/"
-weight = 1
-
-[[menu.main]]
 name = "posts"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "now"
-url = "/now"
-weight = 4
+name = "present"
+url = "/present"
+weight = 1
 
 [[menu.main]]
 name = "projects"

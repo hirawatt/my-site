@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
+<html lang="en" {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
 {{ partial "head" . }}
 <body>
     {{ partial "header" . }}
     <main>
         <div class="container wrapper">
-                
-            {{ .Content }}
-            
-            <div class="recent-posts section">
-                <div class="posts">
-                    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                    {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-                    {{ range $paginator.Pages }}
-                        <div class="post">
-                            {{ partial "post-preview.html" . }}
-                        </div>
-                    {{ end }}
-                    {{ template "partials/paginator.html" . }}
+            <section class="about">
+                    {{ .Content }}
+            </section>
+            <!--
+            <section class="photos">
+                <div class="slideshow">
+                    <figure class="visible">
+                        <img src="img/mexico.jpg" alt="mexico" class="slide">
+                    </figure>
+                    <figure class="visible">
+                        <img src="img/italy.jpg" alt="italy" class="slide">
+                    </figure>
                 </div>
-            </div>
+            </section>
+            -->
+            <section class="recent-posts">
+                <div class="recent-posts section">
+                    <div class="posts">
+                        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                        {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+                        {{ range $paginator.Pages }}
+                            <div class="post">
+                                {{ partial "post-preview.html" . }}
+                            </div>
+                        {{ end }}
+                        {{ template "partials/paginator.html" . }}
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 	{{ partial "footer.html" . }}
