@@ -17,6 +17,12 @@
                 
         <div class="markdown">
             {{ .Content }}
+            {{ if .Page.Store.Get "hasMermaid" }}
+            <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+            <script>
+                mermaid.initialize({ startOnLoad: true });
+            </script>
+        {{ end }}
         </div>
 
         <div class="tags">
@@ -30,24 +36,6 @@
                 {{ end }}
             {{ end }}
         </div>
-
-        {{- if .Site.DisqusShortname -}}
-        {{- $.Scratch.Set "isDisqus" true -}}
-
-        {{- if and (isset .Params "type") (in .Site.Params.disableDisqusTypes .Params.type) -}}
-            {{- $.Scratch.Set "isDisqus" false -}}
-        {{- end -}}
-
-        {{- if and (isset .Params "disqus") (eq .Params.disqus false) -}}
-            {{- $.Scratch.Set "isDisqus" false -}}
-        {{- else if and (isset .Params "disqus") (eq .Params.disqus true) -}}
-            {{- $.Scratch.Set "isDisqus" true -}}
-        {{- end -}}
-
-        {{- if eq ($.Scratch.Get "isDisqus") true -}}
-        {{- partial "disqus.html" . -}}
-        {{- end -}}
-        {{- end -}}
         </div>
     </div>
 </div>

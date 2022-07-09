@@ -8,5 +8,12 @@ draft: true
 
 ## Todo
 
+```mermaid
+flowchart TD
+    A-->B
+    A-->C
+    A-->D
+```
+
 - [ ] Create Custom Shortcodes for Github Repos
 - [ ] Modify Header & Footer Templates
