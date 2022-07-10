@@ -7,11 +7,13 @@
         <div class="container wrapper">
             <section class="about">
                     {{ .Content }}
-                    {{ if .Page.Store.Get "hasMermaid" }}
-                        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-                        <script>
-                            mermaid.initialize({ startOnLoad: true });
-                        </script>
+                    {{ if .Site.Params.Mermaid }}
+                        {{ if .Page.Store.Get "hasMermaid" }}
+                            <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+                            <script>
+                                mermaid.initialize({ startOnLoad: true });
+                            </script>
+                    {{ end }}
                     {{ end }}
             </section>
             <!--
