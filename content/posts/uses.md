@@ -1,7 +1,8 @@
 ---
 title: "Uses"
-date: 2021-05-07
 description: "Hardware & Software that I presently use"
+date: 2021-05-07
+lastmod: 2022-07-10
 tags: [info, todo]
 draft: false
 ---

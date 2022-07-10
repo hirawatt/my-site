@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container wrapper">
+<article class="container wrapper">
     <div class="post">
         <div class="post-header">
             {{ if ne .Date.Year 1 }}
@@ -14,7 +14,9 @@
                 <h1 class="title">{{ .Title }}</h1>
             </div>
         </div>
-                
+        <div>
+            {{ .ReadingTime }} min read, ~{{ .FuzzyWordCount }} words, Last Modified: {{ dateFormat "03-Jan-2006" .Lastmod }}
+        </div>     
         <div class="markdown">
             {{ .Content }}
             {{ if .Page.Store.Get "hasMermaid" }}
@@ -38,5 +40,5 @@
         </div>
         </div>
     </div>
-</div>
+</article>
 {{end}}

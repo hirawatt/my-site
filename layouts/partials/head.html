@@ -17,6 +17,8 @@
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
+	<!-- Web app manifest -->
+	<link rel="manifest" href="{{ .Site.BaseURL }}manifest.json">
 
 	{{- template "_internal/schema.html" . -}}
 	{{- template "_internal/opengraph.html" . -}}

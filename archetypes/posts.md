@@ -1,7 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: ""
 date: {{ .Date }}
-description: "{{ .Description }}"
-tags: [{{ .Tags }}]
+lastmod: {{ .Date }}
+tags: []
 draft: true
 ---
