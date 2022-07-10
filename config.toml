@@ -21,6 +21,7 @@ pygmentscodefencesguesssyntax = true
 	googleFonts = "Playfair+Display:700"
 	
 	featherIconsCDN = true
+	mermaid = false
 
 	mode = "auto" # "dark" or "auto"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
