@@ -2,8 +2,6 @@
 bio_half: "Musings on Building Tech, Finance & Life"
 ---
 
----
-
-A place on the internet that I call home.
+Hi, I'm Vishal. You've found my home on the web. Welcome!
 
 ---

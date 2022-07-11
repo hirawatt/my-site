@@ -5,14 +5,14 @@ theme = "hugo-ink"
 paginate = 5
 
 relativeURLs = true
-copyright = "© Copyright"
+copyright = "© Vishal Hirawat"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-	subtitle = "dev / trader / dreamer"
+	subtitle = "trailblazer / trader / tinkerer"
 
 	# Optional 64x64 avatar image.
 	avatar = "saitama-64x64.png"
@@ -57,7 +57,7 @@ url = "https://t.me/hirawat"
 [[params.social]]
 name = "mail"
 icon = "mail"
-url = "mailto:vishalhirawat@proton.me"
+url = "mailto:vishal@hirawat.in"
 
 [[params.social]]
 name = "twitter"
