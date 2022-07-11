@@ -64,38 +64,38 @@ fieldset {
 }
 
 table {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  -webkit-overflow-scrolling: touch;
-  background-color: transparent;
-  margin-bottom: 1rem;
-  overflow-x: auto;
-  width: 100%;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    width: 100%;
 }
 
 table th,
 table td {
-  border-bottom: 1px solid #dee2e6;
-  padding: 0.75rem;
-  vertical-align: top;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem;
+    vertical-align: top;
 }
 
 table thead th {
-  border-bottom: 2px solid #dee2e6;
-  vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    vertical-align: bottom;
 }
 
 table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+    border-top: 2px solid #dee2e6;
 }
 
 table tbody tr:nth-of-type(even) {
-  background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 table th {
-  background-color: #212529;
-  border-color: #32383e;
-  color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+    color: #fff;
 }
 
 textarea {
@@ -222,11 +222,6 @@ ul {
     margin-top: 30px;
 }
 
-.header {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
 .header .avatar {
     float: left;
     margin: 0 20px 0 0;
@@ -258,7 +253,9 @@ ul {
 
 .header nav {
     border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header nav ul,
@@ -464,11 +461,11 @@ ul {
     }
 
     table {
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-      -webkit-overflow-scrolling: touch;
-      display: block;
-      overflow-x: auto;
-      width: 100%;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        overflow-x: auto;
+        width: 100%;
     }
 }
 

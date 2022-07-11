@@ -23,15 +23,5 @@
                 </ul>
             </nav>
         </div>
-    
-        <nav class="nav">
-            <ul class="flat">
-                {{ range .Site.Menus.main }}
-                <li>
-                    <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        </nav>
     </div>    
 </header>

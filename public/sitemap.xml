@@ -2,19 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hirawatt.github.io/about/</loc>
+    <loc>https://hirawat.in/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hirawatt.github.io/projects/</loc>
+    <loc>https://hirawat.in/tags/info/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hirawatt.github.io/tags/</loc>
+    <loc>https://hirawat.in/posts/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hirawatt.github.io/</loc>
+    <loc>https://hirawat.in/tags/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hirawat.in/tags/todo/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hirawat.in/posts/uses/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hirawat.in/present/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hirawat.in/projects/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
