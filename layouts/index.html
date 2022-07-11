@@ -4,16 +4,7 @@
 <body>
     {{ partial "header" . }}
     <main>
-        <div class="header container wrapper">
-            <nav class="nav">
-                <ul class="flat">
-                    {{ range .Site.Menus.main }}
-                    <li>
-                        <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
-            </nav>
+        <div class="container wrapper">
             <section class="about">
                     {{ .Content }}
                     {{ if .Site.Params.Mermaid }}
