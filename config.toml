@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "trailblazer / trader / tinkerer"
 
 	# Optional 64x64 avatar image.
-	avatar = "saitama-64x64.png"
+	avatar = "saitama-64x64.webp"
 
 	# Google Fonts
 	googleFonts = "Playfair+Display:700"
