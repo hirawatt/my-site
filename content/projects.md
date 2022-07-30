@@ -1,8 +1,7 @@
 ---
+title: "projects"
 type: "page"
 ---
-
-# Projects
 
 ## [BSE Announcements](https://bse-announcements.hirawat.in/)
 
