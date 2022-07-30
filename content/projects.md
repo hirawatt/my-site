@@ -1,5 +1,6 @@
 ---
 title: "projects"
+description: "projects I've worked on"
 type: "page"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "present"
+description: "what I'm currently working on"
 type: "page"
 ---
 

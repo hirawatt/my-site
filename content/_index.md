@@ -1,4 +1,5 @@
 ---
+description: "This is the index page of my website"
 bio_half: "Musings on Building Tech, Finance & Life"
 ---
 

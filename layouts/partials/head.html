@@ -8,6 +8,7 @@
 	{{- else -}}
 		<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
+	<meta name="description" content="{{ .Site.Params.description }}" />
 
 	{{- if isset .Site.Params "favicon" -}}
 		<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
