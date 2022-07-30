@@ -13,6 +13,9 @@
             <div class="matter">
                 <h1 class="title">{{ .Title }}</h1>
             </div>
+        </div>
+        <div class="post-info">
+            {{ .ReadingTime }} min read, ~{{ .FuzzyWordCount }} words, Last Modified: {{ dateFormat "03-Jan-2006" .Lastmod }}
         </div>    
         <div class="markdown">
             {{ .Content }}
