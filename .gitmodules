@@ -1,6 +1,3 @@
 [submodule "themes/hugo-ink"]
 	path = themes/hugo-ink
 	url = https://github.com/knadh/hugo-ink.git
-[submodule "themes/h-enk"]
-	path = themes/h-enk
-	url = https://github.com/h-enk/hyas.git
