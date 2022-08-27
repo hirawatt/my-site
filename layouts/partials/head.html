@@ -8,19 +8,28 @@
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 {{- end -}}
 
-
+<!-- meta description -->
 <meta name="description" content="{{ .Site.Params.description }}" />
 
+<!-- meta hugo version -->
+{{ hugo.Generator }}
+
+<!-- favicon -->
 {{- if isset .Site.Params "favicon" -}}
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 {{- end -}}
 
+<!-- meta viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-<!-- Web app manifest -->
+
+<!-- web app manifest -->
 <link rel="manifest" href={{ "manifest.json" |  absURL }}>
+
+<!-- meta canonical -->
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
 
 {{- template "_internal/schema.html" . -}}
 {{- template "_internal/opengraph.html" . -}}

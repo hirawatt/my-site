@@ -5,6 +5,6 @@ bio_half: "Musings on Building Tech, Finance & Life"
 
 Hi, you've found my home on the web 🕸. Welcome!
 
-Other blog posts on building [finance-tools](https://github.com/hirawatt/finance-tools) is available [here](https://hirawat.substack.com/).
+Other blog posts on building [finance-tools](https://github.com/hirawatt/finance-tools) is available [on substack](https://hirawat.substack.com/).
 
 ---
