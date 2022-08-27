@@ -1,59 +1,53 @@
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	{{- $title := ( .Title ) -}}
-	{{- $siteTitle := ( .Site.Title ) -}}
-	{{- if .IsHome -}}
-		<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}- {{ .Site.Params.Subtitle }}{{ end }} </title>
-	{{- else -}}
-		<title>{{ $title }} - {{ $siteTitle }}</title>
-	{{- end -}}
-	<meta name="description" content="{{ .Site.Params.description }}" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+{{- $title := ( .Title ) -}}
+{{- $siteTitle := ( .Site.Title ) -}}
+{{- if .IsHome -}}
+	<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}- {{ .Site.Params.Subtitle }}{{ end }} </title>
+{{- else -}}
+	<title>{{ $title }} - {{ $siteTitle }}</title>
+{{- end -}}
 
-	{{- if isset .Site.Params "favicon" -}}
-		<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
-	{{- end -}}
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{ with .OutputFormats.Get "rss" -}}
-		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-	{{ end -}}
-	<!-- Web app manifest -->
-	<link rel="manifest" href={{ "manifest.json" |  absURL }}>
+<meta name="description" content="{{ .Site.Params.description }}" />
 
-	{{- template "_internal/schema.html" . -}}
-	{{- template "_internal/opengraph.html" . -}}
-	{{- template "_internal/twitter_cards.html" . -}}
-	<link rel="preconnect" href="https://fonts.gstatic.com/" />
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-	<link href='https://fonts.googleapis.com/css?family={{ .Site.Params.GoogleFonts | safeURL }}&subset=latin&display=swap' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/normalize.css" | absURL }} />
-	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/main.css" | absURL }} />
-	{{- if isset .Site.Params "customcss" }}
-		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customCSS }}" />
-	{{ end }}
+{{- if isset .Site.Params "favicon" -}}
+	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
+{{- end -}}
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href={{ "css/dark.css" | absURL }} />
-        {{- if isset .Site.Params "customdarkcss" }}
-                <link id="dark-scheme" rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customDarkCSS }}" />
-        {{- end }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with .OutputFormats.Get "rss" -}}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+<!-- Web app manifest -->
+<link rel="manifest" href={{ "manifest.json" |  absURL }}>
 
-	{{ if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
-		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-	{{- else if or (isset .Site.Params "social") (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
-		<script src={{ "js/feather.min.js" | absURL }}></script>
-	{{ end }}
-		<script src={{ "js/main.js" | absURL }}></script>
-	{{- if isset .Site.Params "customjs" -}}
-		{{- range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{- end }}
+{{- template "_internal/schema.html" . -}}
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+<link rel="preconnect" href="https://fonts.gstatic.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link href='https://fonts.googleapis.com/css?family={{ .Site.Params.GoogleFonts | safeURL }}&subset=latin&display=swap' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" media="screen" href={{ "css/normalize.css" | absURL }} />
+<link rel="stylesheet" type="text/css" media="screen" href={{ "css/main.css" | absURL }} />
+{{- if isset .Site.Params "customcss" }}
+	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customCSS }}" />
+{{ end }}
+
+	<link id="dark-scheme" rel="stylesheet" type="text/css" href={{ "css/dark.css" | absURL }} />
+	{{- if isset .Site.Params "customdarkcss" }}
+			<link id="dark-scheme" rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customDarkCSS }}" />
 	{{- end }}
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3SXMJZ3GX"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
 
-gtag('config', 'G-P3SXMJZ3GX');
-</script>
+{{ if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+{{- else if or (isset .Site.Params "social") (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
+	<script src={{ "js/feather.min.js" | absURL }}></script>
+{{ end }}
+	<script src={{ "js/main.js" | absURL }}></script>
+{{- if isset .Site.Params "customjs" -}}
+	{{- range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{- end }}
+{{- end }}
+
+<!-- google analytics -->
+{{ template "_internal/google_analytics.html" . }}

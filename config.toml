@@ -11,6 +11,9 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+# google analytics
+googleAnalytics = "G-P3SXMJZ3GX"
+
 [params]
 	subtitle = "trailblazer / trader / tinkerer"
 

@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
-{{ partial "head" . }}
+
+<head>
+    {{ partial "head" . }}
+</head>
+
 <body>
     {{ partial "header" . }}
-    <main>
-        {{ block "main" . }}
 
-        {{ end }}
+    <main>
+        {{ block "main" . }}{{ end }}
     </main>
+
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+    {{ partialCached "footer" . }}
+    {{ else }}
     {{ partial "footer" . }}
+    {{ end }}
 </body>
+
 </html>
