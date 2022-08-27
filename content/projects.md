@@ -18,7 +18,7 @@ type: "page"
 
 > [Restaurant](https://github.com/himanshuNegi755/dineezy/wiki/Restaurant) & [Customer](https://github.com/himanshuNegi755/dineezy/wiki/Customer) Wiki
 
-{{< figure src="https://github.com/himanshuNegi755/dineezy/blob/master/images/dineezy-hero-section.png?raw=true" alt="Dineezy Hero Section" caption="Dineezy Hero Section" >}}
+{{< figure src="https://raw.githubusercontent.com/himanshuNegi755/dineezy/master/images/dineezy-hero-section.png" alt="Dineezy Hero Section" caption="Dineezy Hero Section" >}}
 
 ---
 
@@ -41,4 +41,4 @@ type: "page"
 A simple **mailto:** link generator app!
 > [Source Code](https://github.com/hirawatt/mailto)
 
-{{< figure src="https://github.com/hirawatt/mailto/blob/main/Mailto_generator.png?raw=true" alt="mailto: link generator app" caption="mailto: link generator app" >}}
+{{< figure src="https://raw.githubusercontent.com/hirawatt/mailto/main/Mailto_generator.png" alt="mailto: link generator app" caption="mailto: link generator app" >}}

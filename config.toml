@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'vishal hirawat'
 theme = "hugo-ink"
 paginate = 5
+enableRobotsTXT = true
 
 relativeURLs = true
 copyright = "© Vishal Hirawat"
