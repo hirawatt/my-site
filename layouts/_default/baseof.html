@@ -12,12 +12,7 @@
         {{ block "main" . }}{{ end }}
     </main>
 
-    <!-- cache partial only in production -->
-    {{ if hugo.IsProduction }}
-    {{ partialCached "footer" . }}
-    {{ else }}
     {{ partial "footer" . }}
-    {{ end }}
 </body>
 
 </html>
