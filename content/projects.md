@@ -31,3 +31,14 @@ type: "page"
 ## GrowMo
 
 ### Portfolio Sharing & Trading Community Platform
+
+---
+
+## Small Projects
+
+### [Mailto Generator](https://hirawatt-mailto-main-xctk6l.streamlitapp.com/)
+
+A simple **mailto:** link generator app!
+> [Source Code](https://github.com/hirawatt/mailto)
+
+{{< figure src="https://github.com/hirawatt/mailto/blob/main/Mailto_generator.png?raw=true" alt="mailto: link generator app" caption="mailto: link generator app" >}}

@@ -26,7 +26,7 @@
 	{{- template "_internal/twitter_cards.html" . -}}
 	<link rel="preconnect" href="https://fonts.gstatic.com/" />
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700&subset=latin&display=swap' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family={{ .Site.Params.GoogleFonts | safeURL }}&subset=latin&display=swap' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/normalize.css" | absURL }} />
 	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/main.css" | absURL }} />
 	{{- if isset .Site.Params "customcss" }}
