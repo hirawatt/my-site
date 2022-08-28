@@ -50,19 +50,9 @@ url = "/projects"
 weight = 3
 
 [[params.social]]
-name = "github"
-icon = "github"
-url = "https://github.com/hirawatt"
-
-[[params.social]]
 name = "telegram"
 icon = "send"
 url = "https://t.me/hirawat"
-
-[[params.social]]
-name = "mail"
-icon = "mail"
-url = "mailto:vishal@hirawat.in"
 
 [[params.social]]
 name = "twitter"
