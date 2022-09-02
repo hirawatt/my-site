@@ -1,14 +1,17 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "vishal hirawat",
+    "icons": [
+        {
+            "src": "saitama-64x64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ],
     "short_name": "VH",
-    "start_url": ".",
+    "start_url": "/?source=pwa",
     "display": "standalone",
     "background_color": "#fff",
-    "description": "personal website of vishal hirawat",
-    "icons": [{
-        "src": "saitama-64x64.png",
-        "sizes": "64x64",
-        "type": "image/png"
-    }]
+    "scope": "/",
+    "description": "personal website of vishal hirawat"
 }

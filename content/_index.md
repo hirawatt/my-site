@@ -8,3 +8,5 @@ Hi, you've found my home on the web 🕸. Welcome!
 Other blog posts on building [finance-tools](https://github.com/hirawatt/finance-tools) is available [on substack](https://hirawat.substack.com/).
 
 ---
+
+## Blog Posts
