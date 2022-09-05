@@ -36,7 +36,7 @@ type: "page"
 
 ## [finance-tools](https://share.streamlit.io/hirawatt/finance-tools/main/home.py)
 
-### 🚀 Portfolio: Co-Pilot, 💡 Investing: Idea Generation, 🚦Trade: Due Diligence 
+### 🚀 Portfolio: Co-Pilot, 💡 Investing: Idea Generation, 🚦Trade: Due Diligence
 
 > [WIP](https://github.com/hirawatt/finance-tools)
 

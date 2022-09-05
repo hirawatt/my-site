@@ -4,6 +4,7 @@ title = 'vishal hirawat'
 theme = "hugo-ink"
 paginate = 5
 enableRobotsTXT = true
+enableEmoji = true
 
 relativeURLs = true
 copyright = "© Vishal Hirawat"
