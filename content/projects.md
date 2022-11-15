@@ -47,6 +47,7 @@ type: "page"
 ### [Mailto Generator](https://hirawatt-mailto-main-xctk6l.streamlitapp.com/)
 
 A simple **mailto:** link generator app!
+
 > [Source Code](https://github.com/hirawatt/mailto)
 
 {{< figure src="https://raw.githubusercontent.com/hirawatt/mailto/main/Mailto_generator.png" alt="mailto: link generator app" caption="mailto: link generator app" >}}
