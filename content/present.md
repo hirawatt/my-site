@@ -8,3 +8,5 @@ type: "page"
 
 - 🌱 Building [HirawatTech](https://tech.hirawat.in)
 - 🔭 Working on [TradeBoard](https://tradeboard.in)
+
+{{< figure src="/img/present.jpg" alt="desk setup" caption="work desk setup" >}}
