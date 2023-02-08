@@ -50,6 +50,11 @@ name = "projects"
 url = "/projects"
 weight = 3
 
+[[menu.main]]
+name = "links"
+url = "/links"
+weight = 4
+
 [[params.social]]
 name = "telegram"
 icon = "send"
