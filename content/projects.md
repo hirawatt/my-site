@@ -8,7 +8,7 @@ type: "page"
 
 A virtual keyboard for stock trading automation. [Firefox Extension Link](https://addons.mozilla.org/en-US/firefox/addon/tradeboard/) - Try it out!
 
-{{< figure src="/img/tradeboard.jpg" alt="tradeboard extension" caption="Tradeboard Extension Demo" >}}
+{{< figure src="/img/projects/tradeboard.jpg" alt="tradeboard extension" caption="Tradeboard Extension Demo" >}}
 
 ## [BSE Announcements](https://bse-announcements.hirawat.in/)
 
