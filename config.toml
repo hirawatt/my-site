@@ -51,8 +51,8 @@ url = "/projects"
 weight = 3
 
 [[menu.main]]
-name = "links"
-url = "/links"
+name = "photos"
+url = "/photos"
 weight = 4
 
 [[params.social]]
