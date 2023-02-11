@@ -15,3 +15,4 @@ type: "page"
 - [Google Developers](https://g.dev/hirawat)
 - [Substack](https://hirawat.substack.com/)
 - [Polywork](https://www.polywork.com/hirawat)
+- [Dev.to](https://dev.to/hirawat)
