@@ -40,7 +40,7 @@ Portfolio Sharing & Trading Community Platform
 
 ---
 
-## [finance-tools](https://share.streamlit.io/hirawatt/finance-tools/main/home.py)
+## [finance-tools](https://finance-tools.streamlit.app/)
 
 ### 🚀 Portfolio: Co-Pilot, 💡 Investing: Idea Generation, 🚦Trade: Due Diligence
 
