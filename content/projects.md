@@ -4,7 +4,7 @@ description: "projects I've worked on"
 type: "page"
 ---
 
-## [TradeBoard](https://tradeboard.in) - WIP
+## [TradeBoard](https://tradeboard.in) - WIP {#tradeboard}
 
 A virtual keyboard for stock trading automation. [Firefox Extension Link](https://addons.mozilla.org/en-US/firefox/addon/tradeboard/) - Try it out!
 
@@ -18,7 +18,7 @@ A virtual keyboard for stock trading automation. [Firefox Extension Link](https:
 
 ---
 
-## [Dineezy](https://github.com/himanshuNegi755/dineezy)
+## [Dineezy](https://github.com/himanshuNegi755/dineezy) {#dineezy}
 
 ### Digital Menu and QR code based Restaurant Management System
 
