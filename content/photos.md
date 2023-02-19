@@ -6,4 +6,4 @@ type: "page"
 
 ## Photos Gallery
 
-> Coming Soon
+> Under construction! ![Under construction!](/img/under-construction.gif)
