@@ -23,11 +23,10 @@ googleAnalytics = "G-P3SXMJZ3GX"
 	# Optional 64x64 avatar image.
 	avatar = "saitama-64x64.webp"
 
-	# Google Fonts
-	googleFonts = "Playfair+Display:700"
-	
+	# 3rd Party Libraries
+	googleFonts = "Playfair+Display:700" # Google Fonts	
 	featherIconsCDN = true
-	mermaid = false
+	mermaid = true
 
 	mode = "auto" # "dark" or "auto"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.

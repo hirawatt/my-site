@@ -15,5 +15,6 @@ flowchart TD
     A-->D
 ```
 
+- [x] Mermaid JS Blog
 - [ ] Create Custom Shortcodes for Github Repos
 - [ ] Modify Header & Footer Templates
