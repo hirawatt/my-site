@@ -21,7 +21,7 @@ googleAnalytics = "G-P3SXMJZ3GX"
 	description = 'personal website of vishal hirawat'
 
 	# Optional 64x64 avatar image.
-	avatar = "saitama-64x64.webp"
+	avatar = "saitama-square.webp"
 
 	# 3rd Party Libraries
 	googleFonts = "Playfair+Display:700" # Google Fonts	
