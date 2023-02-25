@@ -20,8 +20,8 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "trailblazer / technocrat / tinkerer"
 	description = 'personal website of vishal hirawat'
 
-	# Optional 64x64 avatar image.
-	avatar = "saitama-square.webp"
+	# Optional 128x128 avatar image.
+	avatar = "saitama-128x128.webp"
 
 	# 3rd Party Libraries
 	#googleFonts = "Playfair+Display:700" # Google Fonts	
