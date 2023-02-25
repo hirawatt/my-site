@@ -16,7 +16,7 @@
             <nav class="nav social">
                 <ul class="flat">
                     {{- range $index, $key := .Site.Params.Social -}}
-                        <li><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
+                        <li><a href="{{ $key.url }}" title="{{ $key.name }}" aria-label="Go to {{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
                     {{- end -}}
                 {{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
                     <li><a href="#" class="scheme-toggle" id="scheme-toggle" title=" "> </a></li>
