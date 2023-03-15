@@ -4,7 +4,24 @@ description: "projects I've worked on"
 type: "page"
 ---
 
-## [TradeBoard](https://tradeboard.in) - WIP {#tradeboard}
+## [Custom Invitation Tool](https://events.streamlit.app/) - (Beta) {#cit}
+
+Generate custom named invites in bulk from a template poster/invitation
+
+{{< figure src="/img/projects/cit1.png" alt="CIT Dashboard Input" caption="CIT Demo 1" >}}
+{{< figure src="/img/projects/cit2.png" alt="CIT Dashboard Output" caption="CIT Demo 2" >}}
+
+## [klabs](https://klabs.in) {#klabs}
+
+Digital Electronics Hardware Store
+
+{{< figure src="/img/projects/klabs.png" alt="klabs website" caption="klabs website" >}}
+
+## [klabs - android app](https://play.google.com/store/apps/details?id=in.klabs.android)
+
+{{< figure src="/img/projects/klabs-android-app.jpg" alt="klabs android app" caption="klabs android app" >}}
+
+## [TradeBoard](https://tradeboard.in) {#tradeboard}
 
 A virtual keyboard for stock trading automation. [Firefox Extension Link](https://addons.mozilla.org/en-US/firefox/addon/tradeboard/) - Try it out!
 
@@ -56,9 +73,6 @@ A simple **mailto:** link generator app! - [Source Code](https://github.com/hira
 
 {{< figure src="https://raw.githubusercontent.com/hirawatt/mailto/main/Mailto_generator.png" alt="mailto: link generator app" caption="mailto: link generator app" >}}
 
-### [Custom Invites Generator](https://text-list-to-image.streamlit.app/)
-
-Generate custom named invites in bulk from a template poster/invitation - [Source Code](https://github.com/hirawatt/events-tools)
 
 ### NSE Discord Bot
 
