@@ -6,9 +6,9 @@ type: "page"
 
 ## What am I upto these days?
 
-- 🌱 Building [HirawatTech](https://tech.hirawat.in)
-- 🌱 Building [klabs](https://klabs.in)
-- 🌱 Building [CIT - Custom Invitation Tool](https://events.streamlit.app)
+- 🌿 Building [HirawatTech](https://tech.hirawat.in)
+- 🌱 Building [πWhatsApp](https://piwhatsapp.hirawat.in) - [Pre-Launch](https://events.streamlit.app)
+- 🌱 Building [TryAR](https://tryar.hirawat.in)
 
 |||
 |:-:|:-:|
