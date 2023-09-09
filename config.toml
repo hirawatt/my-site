@@ -34,43 +34,25 @@ pygmentscodefencesguesssyntax = true
 	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
 # Navigation Menu
-[[menu.main]]
-name = "posts"
-url = "/posts"
-weight = 2
+# [[menu.main]]
+# name = "posts"
+# url = "/posts"
+# weight = 2
 
-[[menu.main]]
-name = "present"
-url = "/present"
-weight = 1
+# [[menu.main]]
+# name = "projects"
+# url = "/projects"
+# weight = 1
 
-[[menu.main]]
-name = "projects"
-url = "/projects"
-weight = 3
-
-[[menu.main]]
-name = "photos"
-url = "/photos"
-weight = 4
-
-[[params.social]]
-name = "telegram"
-icon = "send"
-url = "https://t.me/hirawat"
+# [[menu.main]]
+# name = "photos"
+# url = "/photos"
+# weight = 4
 
 [[params.social]]
 name = "twitter"
 icon = "twitter"
 url = "https://twitter.com/hirawattt"
-
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
-
-[taxonomies]
-tag = "tags"
 
 [sitemap]
 changefreq = 'monthly'
