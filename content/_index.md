@@ -23,8 +23,8 @@ bio_half: "Musings on Building Tech, Finance & Life"
 
 Some of my work over the years --> [projects]({{< ref "/projects" >}} "projects")
 
-Find me on the internet --> [all links]({{< ref "/about/links" >}} "links")
+Photos clicked by me --> [photos](https://www.eyeem.com/u/hirawat)
 
-Photos clicked by me --> [photos]({{< ref "/photos" >}} "photos")
+Find me on the internet --> [all links]({{< ref "/about/links" >}} "links")
 
 Blog Posts --> [posts]({{< ref "/posts" >}} "posts")
