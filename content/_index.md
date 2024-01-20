@@ -8,8 +8,8 @@ bio_half: "Musings on Building Tech, Finance & Life"
 ## What am I upto these days?
 
 - 🌿 Building [HirawatTech](https://tech.hirawat.in)
-- 🌱 Building [TryAR](https://tryar.hirawat.in)
-- 🌱 Building [πWhatsApp](https://piwhatsapp.hirawat.in) - [Pre-Launch](https://events.streamlit.app)
+- 🌱 Building [TryAR](https://tech.hirawat.in/products/tryar.html) - [Try Now](https://tryar.hirawat.in)
+- 🌱 Building [πWhatsApp](https://tech.hirawat.in/products/piwhatsapp.html) - [Pre-Launch](https://events.streamlit.app)
 
 |emojis|meaning|
 |:-:|:-:|
