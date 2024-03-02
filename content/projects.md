@@ -4,6 +4,10 @@ description: "projects I've worked on"
 type: "page"
 ---
 
+## [TryAR](https://tryar.in) - [Try Now](https://tryar.hirawat.in) {#tryar}
+
+A plug & play application to create immersive 3D & AR experiences for e-commerce platforms
+
 ## [Custom Invitation Tool](https://events.streamlit.app/) - (Beta) {#cit}
 
 Generate custom named invites in bulk from a template poster/invitation

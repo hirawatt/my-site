@@ -11,6 +11,7 @@ type: "page"
 - [Google Maps](https://maps.app.goo.gl/kqDZm8ryfbacwHxn8) - Level 6 🌟 Local Guide
 - [Strava](https://strava.app.link/vDe2h9BExHb)
 - Music Playlists - Youtube Music - [P1](https://music.youtube.com/playlist?list=PLim3emt6ut2pYTqFqnwVC8yQGpiG-cUfG), [P2](https://music.youtube.com/playlist?list=PLWH0moRNPT9W4Xo1gkyKq9IbQffEoCTOs)
+- [Amazon Wishlist](https://www.amazon.in/hz/wishlist/ls/2TGELBIB68XXF)
 - [AlternativeTo](https://alternativeto.net/user/hirawatt/) - Level 5
 - [BandCamp](https://bandcamp.com/hirawat)
 - [Airbnb](https://www.airbnb.co.in/p/wonderland)
