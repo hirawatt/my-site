@@ -13,10 +13,10 @@ Hi, you've found my home on the web 🕸. Welcome!
 
 ---
 
-Some of my work over the years --> [projects]({{< ref "/projects" >}} "projects")
+some of my work over the years --> [projects]({{< ref "/projects" >}} "projects")
 
-Find me on the internet --> [all links]({{< ref "/about/links" >}} "links")
+find me on the internet --> [all links]({{< ref "/about/links" >}} "links")
 
-Blog Posts --> [posts]({{< ref "/posts" >}} "posts")
+glossary --> [list]({{< ref "/about/glossary" >}} "glossary")
 
-Glossary --> [list]({{< ref "/about/glossary" >}} "glossary")
+blog --> [posts]({{< ref "/posts" >}} "posts")
