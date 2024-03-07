@@ -7,6 +7,8 @@ tags: [info, todo]
 draft: false
 ---
 
+{{< figure src="/img/personal/present.jpg" alt="desk setup" caption="work desk setup" >}}
+
 ## Hardware
 
 - Laptop -- ASUS Model R558U
