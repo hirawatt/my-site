@@ -12,6 +12,8 @@ type: "page"
 - [Google Maps](https://maps.app.goo.gl/kqDZm8ryfbacwHxn8) - Level 6 🌟 Local Guide
 - Music Playlists - Youtube Music - [P1](https://music.youtube.com/playlist?list=PLim3emt6ut2pYTqFqnwVC8yQGpiG-cUfG), [P2](https://music.youtube.com/playlist?list=PLWH0moRNPT9W4Xo1gkyKq9IbQffEoCTOs)
 - [Substack](https://substack.com/@hirawat)
+- [ArtStation - 3D renders](https://hirawat.artstation.com/)
+- [Google Play Developer](https://play.google.com/store/apps/dev?id=5081147652591750888)
 - [TradingView](https://in.tradingview.com/u/hirawatt)
 - [Strava](https://strava.app.link/vDe2h9BExHb)
 - [AlternativeTo](https://alternativeto.net/user/hirawatt/) - Level 5

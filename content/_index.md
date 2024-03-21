@@ -7,9 +7,8 @@ Hi, you've found my home on the web 🕸. Welcome!
 
 ### What am I upto these days?
 
+- 🌱 Building [TryAR](https://tryar.hirawat.in)
 - 🌿 Building [HirawatTech](https://tech.hirawat.in)
-- 🌱 Building [TryAR](https://tech.hirawat.in/products/tryar.html)
-- 🌱 Building [πWhatsApp](https://tech.hirawat.in/products/piwhatsapp.html)
 
 ---
 
