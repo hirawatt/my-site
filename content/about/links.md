@@ -22,7 +22,7 @@ type: "page"
 - [Hacker News Links](https://news.ycombinator.com/submitted?id=hirawat)
 - [Read Gift](https://read.gift/u/hirawattt)
 - [Upwork](https://www.upwork.com/freelancers/~018b3fb57c86bd5e53)
-- [Contra](https://contra.com/vishalhirawat_52equoh3)
+- [Contra](https://contra.com/vhirawat)
 - [Google Developers](https://g.dev/hirawat)
 - [Substack](https://hirawat.substack.com/)
 - [Polywork](https://www.polywork.com/hirawat)

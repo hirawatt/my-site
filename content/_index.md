@@ -21,4 +21,4 @@ glossary --> [list]({{< ref "/about/glossary" >}} "glossary")
 
 blog --> [posts]({{< ref "/posts" >}} "posts")
 
-[hire me](https://contra.com/vishalhirawat_52equoh3)
+[hire me](https://contra.com/vhirawat)
