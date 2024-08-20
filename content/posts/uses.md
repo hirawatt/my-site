@@ -33,6 +33,7 @@ draft: false
 |CDN| [![Cloudflare](https://cloudflare.com/favicon.ico)](https://cloudflare.com)|
 |Hosting | [![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=f57c1e83dd2f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)|
 |Custom Emails | [![Zoho](https://zoho.com/favicon.ico)](https://go.zoho.com/rJ7)|
+|Zoho CRM & Workplace | [![Zoho](https://zoho.com/favicon.ico)](https://go.zoho.com/v5h)|
 
 ## Trading & Investing Tools
 
