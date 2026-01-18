@@ -2,7 +2,6 @@ baseURL = 'https://hirawat.in/'
 languageCode = 'en-us'
 title = 'vishal hirawat'
 theme = "hugo-ink"
-paginate = 5
 enableRobotsTXT = true
 enableEmoji = true
 
