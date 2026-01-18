@@ -2,7 +2,7 @@
 title: "Uses"
 description: "Hardware & Software that I presently use"
 date: 2021-05-07
-lastmod: 2023-02-06
+lastmod: 2026-01-06
 tags: [info, todo]
 draft: false
 ---
@@ -11,13 +11,24 @@ draft: false
 
 ## Hardware
 
-- Laptop -- ASUS Model R558U
-  - Modified with [WD GREEN SATA 240 GB SSD](https://www.flipkart.com/wd-green-sata-2-5-7mm-disque-240-gb-laptop-all-one-pc-s-desktop-internal-solid-state-drive-wds240g2g0a/p/itmffze8zwuxdx8s)
-- Phone -- Google Pixel
+- Laptop
+  - ~~ASUS Model R558U~~
+  - ~~Modified with [WD GREEN SATA 240 GB SSD](https://www.flipkart.com/wd-green-sata-2-5-7mm-disque-240-gb-laptop-all-one-pc-s-desktop-internal-solid-state-drive-wds240g2g0a/p/itmffze8zwuxdx8s)~~
+  - MacBook Air M2 2023
+- Phone
+  - ~~Google Pixel 4a~~
+  - ~~Google Pixel 6a~~
+  - CMF Phone 2 Pro
+- 
+
+### Accessories
+
+- Nu Republic Party Box 180 (18W, 6 Hrs Playtime), Wireless Bluetooth Soundbar with Mic v5.4, TWS Function, RGB Light (Black) on [Instamart](https://www.swiggy.com/stores/instamart/item/YBMMMQSNZ9?share=true)
+- aabo Smart [Ring](https://aabo.in/products/smart-ring)
 
 ## Software
 
-- [Manjaro](https://manjaro.org/) - After 2 years of Distro Hopping!
+- [Manjaro](https://manjaro.org/) - After 2 years of Distro Hopping! - Earlier used [Pop!_OS](https://pop.system76.com/), [Ubuntu](https://ubuntu.com/), [Linux Mint](https://linuxmint.com/)
 - [Joplin](joplinapp.org/) - Note Editor with Dropbox Syncronization
 - [Firefox](https://www.mozilla.org/en-US/firefox/browsers/)
 - VSCode with [extensions](https://howivscode.com/hirawatt)
