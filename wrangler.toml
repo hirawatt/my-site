@@ -1,0 +1,10 @@
+# Cloudflare Pages project configuration.
+# This file is the source of truth for the project's configuration:
+# it sets the build output directory and pins the Hugo build version so
+# Cloudflare uses the same release this repo is built and tested with.
+name = "hirawat"
+pages_build_output_dir = "public"
+compatibility_date = "2026-10-15"
+
+[vars]
+HUGO_VERSION = "0.168.0"

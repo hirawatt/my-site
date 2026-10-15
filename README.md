@@ -86,7 +86,13 @@ Cloudflare Pages builds the site from the `main` branch on every push.
 
 - **Build command:** `hugo`
 - **Output directory:** `public`
-- Pin a specific release with the `HUGO_VERSION` environment variable for reproducible builds.
+- **Hugo version:** pinned to `0.168.0` via `HUGO_VERSION` in `wrangler.toml`
+
+The committed [`wrangler.toml`](https://developers.cloudflare.com/pages/functions/wrangler-configuration/)
+is the project's configuration source of truth: it sets the build output directory and the
+`HUGO_VERSION` build variable, so Cloudflare builds with the same Hugo release this repo is tested against.
+Because of that, the matching fields (output directory, environment variables) are managed here rather
+than in the Cloudflare dashboard.
 
 ## Credits & license
 
