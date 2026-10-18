@@ -1,0 +1,28 @@
+# Project screenshot targets for scripts/project-screenshots.sh
+#
+# Format:  Name | slug | url
+#   Name  - label used in the markdown heading and figure alt text
+#   slug  - image file name (static/img/projects/<slug>.webp); keep it stable
+#   url   - live site to screenshot
+#
+# Lines starting with # are ignored. A two-field line "Name | url" also works
+# and derives the slug from the name.
+#
+# Typical workflow:
+#   1. Add a line here
+#   2. ./scripts/project-screenshots.sh --all
+#   3. Paste the printed {{< figure >}} snippet into content/projects.md
+
+TryAR | tryar | https://tryar.in
+SnapLens | snaplens | https://snaplens.tryar.in
+TryAR Labs Estimator | estimator | https://estimator.tryar.in
+OpsGrid | opsgrid | https://opsgrid.hirawat.in
+HirawatTech | tech | https://tech.hirawat.in
+TheChecklist | thechecklist | https://thechecklist.hirawat.in
+Couple Qzz | coupleqzz | https://couple.qzz.io
+Dineezy | dineezy | https://dineezy.tryar.in
+Tatkal | tatkal | https://tatkal.hirawat.in
+Jute | jute | https://jute.hirawat.in
+Personal Website | personal-website | https://hirawat.in
+Photography | photography | https://photos.hirawat.in
+DreamSplit | dreamsplit | https://dreamsplit.hirawat.in
